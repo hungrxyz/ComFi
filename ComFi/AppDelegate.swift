@@ -15,7 +15,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 	func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-		// Override point for customization after application launch.
+		
+		NMAApplicationContext.setAppId("2Ne6RtAFpczsbvwY0aCe", appCode: "LWFIttIyuB7wIKJ0q6Z_GQ", licenseKey: "TPSoNdfTyBhaCChl5JXaaEQigcRBt6jCWcohfCzS6+sfljHfzQsY622D/v16ib6w8imNBryG4eQoT/fZgkualzgKxa/KIE3MbEBcaqezgURaxFY7Z1WY9Pxn/+VNbFWoP/5pX/wDIAbl7QYwYlH6c46VgSkACpkR5WGKUAEQYRI3E0jhhpl9lOr48jj1+idvjaS4VOb/LgzwoWVQibu6ChO1kiD/jIn47fkw4Ny6Tjyc3OS9qitMO+WM5WULjptk6X/pl0a61/BHBkW35hIWEK2f6yr00w9qYhNsr31ux/fCWyQunlS3I1T4rVuqle8RsX7w3FYtTvnPpLHbm+FMKVYQqcI7daV+5HCE7HaYLOzVyX5MIlT1B9+/jhPkCqmtqHjepo9AAwi+2ZX+qqJ7I1P9arxCtS330T2eaFMw+R2fez7iQc9sgnvmhrJSzmKgafB2V3Re1VWiu7uZyFVmIVxeNWJFQDkNYhNAUYFOzCCDgPQMQNBTW2/zUcjJMVG/sY1vQsAoAAz5F9ctk85VHYopl0ygzrPTPxmE7ua9Qqu+n5g3ta7+z9/0y4Dl4NBEbiTQWPLAYYBjcpcKkjzwmC45xhSSzLRtSaAO5hKP35scwQDs/GcFVftiqOMhCGft3iweXGD2+WLBv2VZtzJT8ZqJqh0D9N9xdq78s4nsz6c=")
+		
 		return true
 	}
 

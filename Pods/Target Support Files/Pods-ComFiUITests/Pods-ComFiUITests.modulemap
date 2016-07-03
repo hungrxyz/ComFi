@@ -1,0 +1,6 @@
+framework module Pods_ComFiUITests {
+  umbrella header "Pods-ComFiUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
