@@ -39,6 +39,10 @@
 		FA6F0BB41D28C32700244D38 /* NMAKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6F0BB31D28C32700244D38 /* NMAKit.framework */; };
 		FACEF7A51D2901EF005151F6 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACEF7A41D2901EF005151F6 /* LocationManager.swift */; };
 		FACEF7A71D290268005151F6 /* CurrentLocationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACEF7A61D290268005151F6 /* CurrentLocationProtocol.swift */; };
+		FACEF7A91D290BFF005151F6 /* ReverseGeocoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACEF7A81D290BFF005151F6 /* ReverseGeocoder.swift */; };
+		FACEF7AB1D2911AC005151F6 /* Geocoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACEF7AA1D2911AC005151F6 /* Geocoder.swift */; };
+		FACEF7AD1D292868005151F6 /* TransitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACEF7AC1D292868005151F6 /* TransitViewController.swift */; };
+		FACEF7AF1D292AB6005151F6 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACEF7AE1D292AB6005151F6 /* Cell.swift */; };
 		FAD078C51D28C529002E40D2 /* NMAKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6F0BB31D28C32700244D38 /* NMAKit.framework */; };
 		FAD078C61D28C529002E40D2 /* NMAKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA6F0BB31D28C32700244D38 /* NMAKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -119,6 +123,10 @@
 		FA6F0BB31D28C32700244D38 /* NMAKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NMAKit.framework; sourceTree = "<group>"; };
 		FACEF7A41D2901EF005151F6 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		FACEF7A61D290268005151F6 /* CurrentLocationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentLocationProtocol.swift; sourceTree = "<group>"; };
+		FACEF7A81D290BFF005151F6 /* ReverseGeocoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseGeocoder.swift; sourceTree = "<group>"; };
+		FACEF7AA1D2911AC005151F6 /* Geocoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Geocoder.swift; sourceTree = "<group>"; };
+		FACEF7AC1D292868005151F6 /* TransitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitViewController.swift; sourceTree = "<group>"; };
+		FACEF7AE1D292AB6005151F6 /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 		FAD078C81D28C6C8002E40D2 /* ComFi-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ComFi-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -210,7 +218,11 @@
 			children = (
 				FA6F0B5A1D28BE8E00244D38 /* AppDelegate.swift */,
 				FA6F0B5C1D28BE8E00244D38 /* ViewController.swift */,
+				FACEF7AC1D292868005151F6 /* TransitViewController.swift */,
+				FACEF7AE1D292AB6005151F6 /* Cell.swift */,
 				FACEF7A41D2901EF005151F6 /* LocationManager.swift */,
+				FACEF7A81D290BFF005151F6 /* ReverseGeocoder.swift */,
+				FACEF7AA1D2911AC005151F6 /* Geocoder.swift */,
 				FACEF7A61D290268005151F6 /* CurrentLocationProtocol.swift */,
 				FA6F0B5E1D28BE8E00244D38 /* Main.storyboard */,
 				FA6F0B611D28BE8E00244D38 /* Assets.xcassets */,
@@ -534,7 +546,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA6F0B5D1D28BE8E00244D38 /* ViewController.swift in Sources */,
+				FACEF7AB1D2911AC005151F6 /* Geocoder.swift in Sources */,
+				FACEF7AD1D292868005151F6 /* TransitViewController.swift in Sources */,
+				FACEF7A91D290BFF005151F6 /* ReverseGeocoder.swift in Sources */,
 				FA6F0B5B1D28BE8E00244D38 /* AppDelegate.swift in Sources */,
+				FACEF7AF1D292AB6005151F6 /* Cell.swift in Sources */,
 				FACEF7A71D290268005151F6 /* CurrentLocationProtocol.swift in Sources */,
 				FACEF7A51D2901EF005151F6 /* LocationManager.swift in Sources */,
 			);
