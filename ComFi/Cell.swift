@@ -11,6 +11,7 @@ import UIKit
 class Cell: UITableViewCell {
 	
 	@IBOutlet weak var statusLabel: UILabel!
+	@IBOutlet weak var tempLabel: UILabel!
 	@IBOutlet weak var temperatureImageView: UIImageView!
 	@IBOutlet weak var soundImageView: UIImageView!
 	

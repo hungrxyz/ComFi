@@ -23,7 +23,7 @@ class TransitViewController: UIViewController {
 		// Dispose of any resources that can be recreated.
 	}
 	
-	let arr = []
+	let arr = [["U6 -> 12", "22ºC", 1, 2], ["U2", "29ºC", 2, 1], ["248 -> U2", "32ºC", 2, 2]]
 	
 	
 	/*
@@ -41,13 +41,26 @@ class TransitViewController: UIViewController {
 extension TransitViewController: UITableViewDataSource {
 	
 	func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-		return 3
+		return arr.count
 	}
 	
 	func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
 		let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as! Cell
 		
-		cell.statusLabel.text =
+		cell.statusLabel.text = arr[indexPath.row][0] as? String
+		cell.tempLabel.text = arr[indexPath.row][1] as? String
+		
+		if arr[indexPath.row][2] == 1 {
+			cell.temperatureImageView.image = UIImage(named: "cold")!
+		} else {
+			cell.temperatureImageView.image = UIImage(named: "hot")!
+		}
+		
+		if arr[indexPath.row][3] == 1 {
+			cell.soundImageView.image = UIImage(named: "silent")!
+		} else {
+			cell.soundImageView.image = UIImage(named: "noise")!
+		}
 		
 		return cell
 	}
